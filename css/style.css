@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.principal {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+      url(../img/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: 55px;
+  }
+  .section-bandas{
+    padding: 50px;
+    background-color: rgb(5,7,15);
+  }
+  .riverdale-logo{
+    width: 450px;
+    height: 250px;
+  }
+  p{
+    color: white;
+  }
+  .subtitle {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+ } 
+
+
+
+
+
+ @media (max-width: 768px) {
+    /* INDEX */
+    .riverdale-logo{
+      width: 300px;
+      height: 150px;
+    }
+  }
